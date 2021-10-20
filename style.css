@@ -11,5 +11,23 @@ header {
     background-image: url("design-assets/bgk-header.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
 }
 
+nav {
+    flex-direction: row;
+
+}
+
+.toplogo {
+    padding: 10 px;
+    vertical-align: left;
+}
+
+.menu {
+    text-transform: uppercase;
+    font-weight: bold;
+    vertical-align: right;
+
+}

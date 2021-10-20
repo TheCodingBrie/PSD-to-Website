@@ -1,5 +1,6 @@
 *  {
     box-sizing: border-box;
+    background-color: green;
 }
 
 html,
@@ -9,25 +10,28 @@ body {
 
 header {
     background-image: url("design-assets/bgk-header.png");
-    background-size: auto 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
 }
 
 nav {
+    display: flex;
     flex-direction: row;
 
 }
 
 .toplogo {
-    padding: 10 px;
+    padding: 100 px;
     vertical-align: left;
+    flex-grow: 4;
 }
 
 .menu {
     text-transform: uppercase;
     font-weight: bold;
     vertical-align: right;
+    padding: 10 px;
 
 }

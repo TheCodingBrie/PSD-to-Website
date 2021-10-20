@@ -1,6 +1,6 @@
 *  {
     box-sizing: border-box;
-    background-color: green;
+    
 }
 
 html,
@@ -12,26 +12,56 @@ header {
     background-image: url("design-assets/bgk-header.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: row;
 }
+
 
 nav {
     display: flex;
     flex-direction: row;
-
+    justify-content: space-between;
+    
 }
 
-.toplogo {
+.toplogo p {
     padding: 100 px;
     vertical-align: left;
-    flex-grow: 4;
+    color: #52c3c0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
 }
 
-.menu {
+.menu a {
+    /*text-align: right;*/
     text-transform: uppercase;
     font-weight: bold;
-    vertical-align: right;
-    padding: 10 px;
+    text-decoration: none;
+    color: white;
+    
 
 }
+
+.s1headline {
+    /*margin-top: 100 px;
+    padding-top: 100 px;*/
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+
+}
+.bluebuttons {
+    padding: 4 px;
+    border: 1px solid #52c3c0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #52c3c0;
+    text-decoration: none;
+
+    /*universal class will do better*/
+    
+}
+

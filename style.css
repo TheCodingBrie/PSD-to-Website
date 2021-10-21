@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+
 *  {
     box-sizing: border-box;
-    
+    font-family: 'roboto';
+    font-weight: 300;    
 }
 
 html,
@@ -10,26 +16,42 @@ body {
 
 header {
     background-image: url("design-assets/bgk-header.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: auto;
+    background-repeat: no-repeat;   
+    /*height: 600px;*/ 
 }
 
 
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    
+    justify-content: center;
+    padding-top: 20px;
+    align-items: center;    
 }
 
 .toplogo p {
     padding: 100 px;
-    vertical-align: left;
-    color: #52c3c0;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
+    color: #52c3c0; 
+}
 
+.tajam {
+    font-size: 30px;
+    padding-left: 10px;
+    font-weight: 100; /* can't get it thinner somehow*/
+    /*Code from Fey following*/
+    background: linear-gradient(
+    280deg,
+    rgba(96, 85, 136, 1) 0%,
+    rgba(16, 168, 171, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu {
+    margin-left: 200px; 
 }
 
 .menu a {
@@ -38,8 +60,12 @@ nav {
     font-weight: bold;
     text-decoration: none;
     color: white;
-    
+    padding: 0px 5px;
+    font-size: 12px;
+}
 
+.menu a:hover {
+    color:#52c3c0;
 }
 
 .s1headline {
@@ -51,17 +77,50 @@ nav {
 h1 {
     text-align: center;
     color: white;
-
+    font-family: "Playfair Display";
+    font-style: black; /*doesnt seem to react*/  
+    font-weight: 900;
+    font-size: 35px;
 }
-.bluebuttons {
-    padding: 4 px;
+
+.s1divider {
+    width: 50px;
+    /*color: #46a3cc; why doesn't it take the color? I cheated one line down*/
+    border: 1px solid #52c3c0;
+}
+
+.s1introduction {
+    display: flex;
+    flex-direction: column;
+    /*max-width: 500px; would be one way to go */
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    padding: 90px;
+}
+
+.s1introductiontext {
+    text-align: center;
+    color: white;
+    line-height: 1.8;
+    max-width: 700px;
+    padding-bottom: 20px;
+    opacity: 0.8;    
+}
+
+.bluebuttons {    
+    text-decoration: none;  
+}
+
+.bluebuttons p {   
+    color: #52c3c0;
+    font-weight: 600;
+    padding: 10px;
     border: 1px solid #52c3c0;
     text-align: center;
     text-transform: uppercase;
-    color: #52c3c0;
-    text-decoration: none;
+    border-radius: 2px;
+    /* Box abrunden? */
 
-    /*universal class will do better*/
-    
 }
 

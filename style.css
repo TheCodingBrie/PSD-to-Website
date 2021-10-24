@@ -4,7 +4,14 @@
 
 html,
 body {
-    height: 100%;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 header {
@@ -19,23 +26,25 @@ header {
 
 .section2 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 450px;
     background-color: white;
+    overflow: scroll;
+    margin: 20px auto;
 }
 
 .s2img {
     float: right;
-    padding-right: 100px;
+    padding-right: 50px;
+    margin-left: 20%;
+
 }
 
 .s2story {
-    width: 50%;
+    width: 60%;
     float: left;
-
 }
 
 .s2title{
@@ -49,8 +58,7 @@ header {
     font-family: 'Roboto', sans-serif;
     line-height: 1.8;
     text-align: justify;
-    width: 500px;
-    
+    width: 80%;
 }
 
 .s2button{
@@ -64,12 +72,7 @@ header {
     width: 100px;
 }
 
-.section4 {
-
-}
-
-.s4head {
-    
+.s4head {  
     text-align: center;
 }
 
@@ -97,12 +100,15 @@ header {
 .s4body {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    width: 100%;
-    padding: 0 280px;
-    
+    width: 98%;
+    margin: 0 auto;
+}
 
+.s4card0 {
+    min-width: 250px;
+    padding: 10px 10px;
 }
 
 .s4card1 {
@@ -111,11 +117,11 @@ header {
     border-right: 1px solid whitesmoke;
     border-bottom: 1px solid whitesmoke;
     text-align: center;
-    padding: 50px 50px;
     margin: 0 0;
-
-
+    overflow:hidden;
 }
+
+
 
 .s4card2 {
     height: 300px;
@@ -123,8 +129,8 @@ header {
     border-bottom: 1px solid whitesmoke;
     text-align: center;
     width: 33.33%;
-    padding: 50px 50px;
     margin: 0 0;
+    overflow:hidden;
 }
 
 .s4card3 {
@@ -132,8 +138,8 @@ header {
     border-bottom: 1px solid whitesmoke;
     text-align: center;
     width: 33.33%;
-    padding: 50px 50px;
     margin: 0 0;
+    overflow:hidden;
 }
 
 .s4card4 {
@@ -141,8 +147,8 @@ header {
     border-right: 1px solid whitesmoke;
     text-align: center;
     width: 33.33%;
-    padding: 50px 50px;
     margin: 0 0;
+    overflow:hidden;
 
 }
 
@@ -151,8 +157,8 @@ header {
     border-right: 1px solid whitesmoke; 
     text-align: center;
     width: 33.33%;
-    padding: 50px 50px;
     margin: 0 0;
+    overflow:hidden;
 
 }
 
@@ -160,6 +166,15 @@ header {
     height: 300px;
     text-align: center;
     width: 33.33%;
-    padding: 50px 50px;
     margin: 0 0;
+    overflow:hidden;
+}
+
+@media only screen and (min-width: 600px) {
+    .s4body {
+        width: 80%;
+    }
+    .s4card0 {
+        padding: 50px 50px;
+    }
 }

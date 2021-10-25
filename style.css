@@ -6,7 +6,7 @@
 *  {
     box-sizing: border-box;
     font-family: 'roboto';
-    font-weight: 300;    
+    /*font-weight: 300;*/    
 }
 
 html,
@@ -16,24 +16,18 @@ body {
 
 header {
     background-image: url("design-assets/bgk-header.png");
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;   
-    /*height: 600px;*/ 
 }
 
 
-nav {
+nav { 
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-top: 20px;
     align-items: center;    
-}
-
-.toplogo p {
-    padding: 100 px;
-    color: #52c3c0; 
 }
 
 .tajam {
@@ -52,7 +46,8 @@ nav {
 }
 
 .menu {
-    margin-left: 200px; 
+    /*margin-left: 200px; */
+    margin-left: 15em;  
 }
 
 .menu a {
@@ -61,18 +56,12 @@ nav {
     font-weight: bold;
     text-decoration: none;
     color: white;
-    padding: 0px 5px;
+    padding: 0px 1em;
     font-size: 12px;
 }
 
 .menu a:hover {
     color:#52c3c0;
-}
-
-.s1headline {
-    /*margin-top: 100 px;
-    padding-top: 100 px;*/
-    color: white;
 }
 
 h1 {
@@ -85,28 +74,26 @@ h1 {
 }
 
 .s1divider {
-    width: 50px;
-    /*color: #46a3cc; why doesn't it take the color? I cheated one line down*/
+    width: 4em;
+    /*I cheated one line down*/
     border: 1px solid #52c3c0;
 }
 
 .s1introduction {
     display: flex;
     flex-direction: column;
-    /*max-width: 500px; would be one way to go */
     justify-content: center;
     align-items: center;
-    gap: 0px;
-    padding: 90px;
+    padding: 6em;
 }
 
 .s1introductiontext {
     text-align: center;
     color: white;
     line-height: 1.8;
-    max-width: 700px;
-    padding-bottom: 20px;
-    opacity: 0.8;    
+    max-width: 50em;
+    padding-bottom: 0.5em;
+    opacity: 0.7;    
 }
 
 .bluebuttons {    

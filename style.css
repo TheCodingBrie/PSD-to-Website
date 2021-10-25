@@ -116,6 +116,7 @@ h1 {
     text-transform: uppercase;
     border-radius: 2px;
 }
+/* Header ending*/
 
 .w-50 {
     width: 50%;
@@ -267,6 +268,7 @@ h1 {
     overflow:hidden;
 }
 
+
 @media only screen and (min-width: 600px) {
     .s4body {
         width: 80%;
@@ -275,3 +277,86 @@ h1 {
         padding: 50px 50px;
     }
 }
+
+/*TeamPart starting*/
+.s3team { /*whole section*/
+    background-image: url("design-assets/bgk-header.png"); /*wrong image! Right one is missing*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+    padding: 3em 0em;
+        
+}
+
+.s3d1intro { /*Headline, introtext, dividing line*/
+    color: white;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.s3greyline {
+    width: 50px;
+    border: 1px solid grey; /*not correct color */
+    margin-bottom: 2.5em;
+    margin-top: 0;
+}
+
+.s3whiteheadline {
+/*let's try without this one */
+}
+
+.s3d2teampictures { /*the pictures*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2.5em;
+}
+
+.s3d3teampicture { /* The single pictures with text*/
+    border: 1px solid grey;
+    margin: 0.5em;          
+}
+
+.s3d3teampicture img { /* The single pictures with text*/
+    height: 200px;
+    width: 190px;
+}
+.s3d3teampicture p { /*Fonts in teamboxes*/
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.s3d3teampicture p:first-of-type { /*First p in teambox (SEMF UCUK)*/
+    font-weight: 700;
+    margin-bottom: -7px;
+    margin-top: 20px;
+}
+
+.s3d3teampicture p:nth-of-type(2) { /*Second p in teambox (CEO&Founder)*/
+    font-weight: 100; /*Font is too heavy*/
+    opacity: 0.7;
+    font-size: small;
+    margin-bottom: 20px;
+}
+
+.bluebuttons {    
+    text-decoration: none;
+}
+
+.bluebuttons p {   
+    color: #52c3c0;
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid #52c3c0;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+/*Teampart ends here*/

@@ -4,7 +4,14 @@
 
 html,
 body {
-    height: 100%;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 header {
@@ -13,3 +20,161 @@ header {
     background-repeat: no-repeat;
 }
 
+.w-50 {
+    width: 50%;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    overflow: scroll;
+    margin: 20px auto;
+}
+
+.s2img {
+    float: right;
+    padding-right: 50px;
+    margin-left: 20%;
+
+}
+
+.s2story {
+    width: 60%;
+    float: left;
+}
+
+.s2title{
+    color: #403e4b;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.s2paragraph{
+    color: #616164;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    text-align: justify;
+    width: 80%;
+}
+
+.s2button{
+    border: 1px solid #97e9e3;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color:  #97e9e3;
+    padding: 10px 10px;
+    font-weight: 500;
+    width: 100px;
+}
+
+.s4head {  
+    text-align: center;
+}
+
+.s4title{
+    font-family: 'Playfair Display', serif;
+}
+.s4paragraph{
+    font-family: 'Roboto', sans-serif;
+}
+
+.s4cardtitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.s4line {
+    border-bottom: solid #bababe;
+    height: 10px;
+    max-width: 50px;
+    margin: 20px auto 0 auto;
+}
+
+
+
+.s4body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.s4card0 {
+    min-width: 250px;
+    padding: 10px 10px;
+}
+
+.s4card1 {
+    height: 300px;
+    width: 33.33%;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    text-align: center;
+    margin: 0 0;
+    overflow:hidden;
+}
+
+
+
+.s4card2 {
+    height: 300px;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    text-align: center;
+    width: 33.33%;
+    margin: 0 0;
+    overflow:hidden;
+}
+
+.s4card3 {
+    height: 300px;
+    border-bottom: 1px solid whitesmoke;
+    text-align: center;
+    width: 33.33%;
+    margin: 0 0;
+    overflow:hidden;
+}
+
+.s4card4 {
+    height: 300px;
+    border-right: 1px solid whitesmoke;
+    text-align: center;
+    width: 33.33%;
+    margin: 0 0;
+    overflow:hidden;
+
+}
+
+.s4card5 {
+    height: 300px;
+    border-right: 1px solid whitesmoke; 
+    text-align: center;
+    width: 33.33%;
+    margin: 0 0;
+    overflow:hidden;
+
+}
+
+.s4card6 {
+    height: 300px;
+    text-align: center;
+    width: 33.33%;
+    margin: 0 0;
+    overflow:hidden;
+}
+
+@media only screen and (min-width: 600px) {
+    .s4body {
+        width: 80%;
+    }
+    .s4card0 {
+        padding: 50px 50px;
+    }
+}

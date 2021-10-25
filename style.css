@@ -110,7 +110,7 @@ h1 {
 }
 
 .bluebuttons {    
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 .bluebuttons p {   
@@ -121,7 +121,5 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     border-radius: 2px;
-    /* Box abrunden? */
-
 }
 

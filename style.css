@@ -1,10 +1,33 @@
 *  {
     box-sizing: border-box;
+    /* border: solid red 1px; */
+    font-family: ROBOTO;
 }
 
-html,
+a {
+    text-decoration: none;
+}
+
+.titles {
+    font-family: 'Playfair Display', sans-serif;
+}
+
+body,
+html {
+  margin: 0px;
+}
+
 body {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 85%;
 }
 
 header {
@@ -13,3 +36,216 @@ header {
     background-repeat: no-repeat;
 }
 
+.white-links {
+    color: white;
+}
+
+.s6-container {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.s6-spacer {
+    width: 10%;
+}
+.s6-news, .s6-client {
+    width: 45%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.s6-client {
+    display: flex;
+    flex-direction: column;
+}
+
+.s6-logo-divider {
+    display: flex;
+}
+
+.s6-logo-container-left {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.s6-logo-container-right {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.s6-container a {
+    width: 80%;
+}
+
+.s6-logo-container-left .s6-logo {
+    width: 90%;
+    margin: 20px 0px;
+}
+
+.s6-logo-container-right .s6-logo {
+    width: 90%;
+    margin: 20px 20px;
+}
+
+.s6-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.s6-input {
+    font-size: 15px;
+    margin: 11px 0px;
+    padding: 11px;
+    border: solid 1px lightgray;
+}
+
+.s6-input::placeholder {
+    color: lightgray;
+}
+
+.bluebuttons {
+    color: #52c3c0;
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid #52c3c0;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 2px;
+    background-color: white;
+    width: 25%;
+    min-width: 100px;
+    margin: 11px 0px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("design-assets/bgk-footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 85%;
+}
+
+footer a{
+    color: white;
+}
+
+.s7-top {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    line-height: 1.5em;
+}
+
+.s7-sub-top {
+    width: 33%;
+    padding: 7% 0px 5% 0;
+}
+
+.tajam {
+    background: linear-gradient(
+        280deg,
+        rgba(96, 85, 136, 1) 0%,
+        rgba(16, 168, 171, 1) 100%
+      );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+.s7-logo-text {
+    width: 90%;
+}
+
+.s7-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.s7-mini-icon {
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+.s7-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.s7-input {
+    font-size: 15px;
+    padding: 11px;
+    border: solid 1px white;
+    background: rgba(255, 255, 255, 0);
+    opacity: 0.65;
+    width: 75%;
+}
+
+.s7-input::placeholder {
+    color: white;
+}
+
+.s7-submit {
+    background-color: white;
+    opacity: 0.45;
+    padding: 6px 22px;
+}
+
+.s7-reference-link {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.phone {
+    align-self: flex-start;
+}
+
+.s7-span {
+    margin-top: 5px;
+    padding-right: 40px;
+}
+
+.s7-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding-bottom: 4%;
+}
+
+.s7-bottom-links {
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.s7-add-margin {
+    margin-top: 25px;
+}
+
+.s7-mini-logo {
+    margin-right: 7px;
+}
+
+.s7-bottom-link-container {
+    width: 35%;
+    justify-self: flex-start;
+    display: flex;
+    justify-content: space-between;
+}

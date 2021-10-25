@@ -1,5 +1,6 @@
 *  {
     box-sizing: border-box;
+    
 }
 
 html,
@@ -13,3 +14,33 @@ header {
     background-repeat: no-repeat;
 }
 
+.s3team { /*whole section*/
+    background-image: url("design-assets/bgk-header.png"); /*wrong image! Right one is missing*/
+    background-size: auto;
+    background-repeat: no-repeat;
+    vertical-align: center;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s3d1intro { /*Headline, introtext, dividing line*/
+    color: white;
+    text-align: center;
+}
+
+.s3greyline {
+    width: 50px;
+    border: 1px solid grey; /*not correct color */
+
+
+
+}
+
+.s3whiteheadline {
+/*let's try without this one */
+}
+
+.s3d2teampictures { /*the pictures*/
+
+}

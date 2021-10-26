@@ -11,6 +11,7 @@
 body,
 html {
     margin: 0px;
+    scroll-behavior: smooth; /*Enables smooth moving of the screen when clicking on a link instead of just jumping to it */
 }
 
 body {
@@ -48,6 +49,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat; 
     width: 100%;  
+        
 }
 
 nav { 
@@ -55,7 +57,7 @@ nav {
     flex-direction: row;
     justify-content: center;
     padding-top: 20px;
-    align-items: center;    
+    align-items: center;  
 }
 
 .titles {
@@ -80,6 +82,7 @@ nav {
 .menu {
     /*margin-left: 200px; */
     margin-left: 15em;  
+     
 }
 
 .menu a {

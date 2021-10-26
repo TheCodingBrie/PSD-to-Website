@@ -1,20 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
 *  {
     box-sizing: border-box;
+    font-family: roboto;
     /* border: solid red 1px; */
-    font-family: ROBOTO;
-}
-
-a {
-    text-decoration: none;
-}
-
-.titles {
-    font-family: 'Playfair Display', sans-serif;
 }
 
 body,
 html {
-  margin: 0px;
+    margin: 0px;
 }
 
 body {
@@ -27,13 +23,327 @@ main {
     display: flex;
     flex-direction:column;
     align-items: center;
-    width: 85%;
+    width: 100%;
+    margin: 0px;
 }
+/* Verify */
+a {
+    text-decoration: none;
+}
+
+/* Start of Kai Section Header/Navbar + Team */
+
+/* End of Kai Section Header/Navbar + Team */
+
+/* Start of Andrea Section Story + Expertise */
+
+/* End of Andrea Section Story + Expertise */
+
+/* Start of Guillaume Section News/Clients + Footer */
+
+/* End of Guillaume Section News/Clients + Footer */
 
 header {
     background-image: url("design-assets/bgk-header.png");
-    background-size: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%;  
+}
+
+nav { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    align-items: center;    
+}
+
+.titles {
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.tajam {
+    font-size: 30px;
+    padding-left: 10px;
+    font-weight: 100; /* can't get it thinner somehow*/
+    /*Code from Fey following*/
+    background: linear-gradient(
+    280deg,
+    rgba(96, 85, 136, 1) 0%,
+    rgba(16, 168, 171, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu {
+    /*margin-left: 200px; */
+    margin-left: 15em;  
+}
+
+.menu a {
+    /*text-align: right;*/
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 0px 1em;
+    font-size: 12px;
+}
+
+.menu a:hover {
+    color:#52c3c0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: "Playfair Display";
+    font-style: black; /*doesnt seem to react*/  
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.s1divider {
+    width: 4em;
+    /*I cheated one line down*/
+    border: 1px solid #52c3c0;
+}
+
+.s1introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6em;
+}
+
+.s1introductiontext {
+    text-align: center;
+    color: white;
+    line-height: 1.8;
+    max-width: 50em;
+    padding-bottom: 0.5em;
+    opacity: 0.7;    
+}
+
+.bluebuttons {    
+    text-decoration: none;
+}
+
+.bluebuttons p {   
+    color: #52c3c0;
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid #52c3c0;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+/* Header ending*/
+
+.w-50 {
+    width: 50%;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    overflow: scroll;
+    margin: 20px auto;
+}
+
+.s2img {
+    float: right;
+    padding-right: 50px;
+    margin-left: 20%;
+
+}
+
+.s2story {
+    width: 60%;
+    float: left;
+}
+
+.s2title{
+    color: #403e4b;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.s2paragraph{
+    color: #616164;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    text-align: justify;
+    width: 80%;
+}
+
+.s2button{
+    border: 1px solid #97e9e3;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color:  #97e9e3;
+    padding: 10px 10px;
+    font-weight: 500;
+    width: 100px;
+}
+
+.s4head {  
+    text-align: center;
+}
+
+.s4title{
+    font-family: 'Playfair Display', serif;
+}
+.s4paragraph{
+    font-family: 'Roboto', sans-serif;
+}
+
+.s4cardtitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.s4line {
+    border-bottom: solid #bababe;
+    height: 10px;
+    max-width: 50px;
+    margin: 20px auto 0 auto;
+}
+
+
+
+.s4body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.s4card0 {
+    min-width: 250px;
+    padding: 10px 10px;
+}
+
+.s4card1 {
+    height: 300px;
+    width: 33.33%;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    text-align: center;
+    margin: 0 0;
+    overflow:hidden;
+}
+
+
+
+.s4card2 {
+    height: 300px;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    text-align: center;
+    width: 33.33%;
+    margin: 0 0;
+    overflow:hidden;
+}
+
+.s4card3 {
+    height: 300px;
+    border-bottom: 1px solid whitesmoke;
+    text-align: center;
+    width: 33.33%;
+    margin: 0 0;
+    overflow:hidden;
+}
+
+.s4card4 {
+    height: 300px;
+    border-right: 1px solid whitesmoke;
+    text-align: center;
+    width: 33.33%;
+    margin: 0 0;
+    overflow:hidden;
+
+}
+
+.s4card5 {
+    height: 300px;
+    border-right: 1px solid whitesmoke; 
+    text-align: center;
+    width: 33.33%;
+    margin: 0 0;
+    overflow:hidden;
+
+}
+
+.s4card6 {
+    height: 300px;
+    text-align: center;
+    width: 33.33%;
+    margin: 0 0;
+    overflow:hidden;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .s4body {
+        width: 80%;
+    }
+    .s4card0 {
+        padding: 50px 50px;
+    }
+}
+
+/*TeamPart starting*/
+.s3team { /*whole section*/
+    background-image: url("design-assets/bgk-header.png"); /*wrong image! Right one is missing*/
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+    padding: 3em 0em;
+    width: 100%;
+}
+
+.s3subteam {
+    width: 60%;
+}
+.s3d1intro { /*Headline, introtext, dividing line*/
+    color: white;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.s3greyline {
+    width: 50px;
+    border: 1px solid grey; /*not correct color */
+    margin-bottom: 2.5em;
+    margin-top: 0;
+}
+
+.s3whiteheadline {
+    font-family: "playfair display", sans-serif;
+/*let's try without this one */
+}
+
+.s3d2teampictures { /*the pictures*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2.5em;
 }
 
 .white-links {
@@ -112,7 +422,40 @@ header {
     color: lightgray;
 }
 
-.bluebuttons {
+.s3d3teampicture { /* The single pictures with text*/
+    border: 1px solid grey;
+    margin: 0.5em;          
+}
+
+.s3d3teampicture img { /* The single pictures with text*/
+    height: 200px;
+    width: 190px;
+}
+.s3d3teampicture p { /*Fonts in teamboxes*/
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.s3d3teampicture p:first-of-type { /*First p in teambox (SEMF UCUK)*/
+    font-weight: 700;
+    margin-bottom: -7px;
+    margin-top: 20px;
+}
+
+.s3d3teampicture p:nth-of-type(2) { /*Second p in teambox (CEO&Founder)*/
+    font-weight: 100; /*Font is too heavy*/
+    opacity: 0.7;
+    font-size: small;
+    margin-bottom: 20px;
+}
+
+.bluebuttons {    
+    text-decoration: none;
+}
+
+.bluebuttons p {   
     color: #52c3c0;
     font-weight: 600;
     padding: 10px;
@@ -134,7 +477,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    width: 85%;
+    width: 100%;
 }
 
 footer a{
@@ -249,3 +592,4 @@ footer a{
     display: flex;
     justify-content: space-between;
 }
+

@@ -5,7 +5,7 @@
 *  {
     box-sizing: border-box;
     font-family: roboto, sans-serif;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     scroll-behavior: smooth; /*Makes smooth scrolling instead of jumping for menu and buttons*/
 }
 
@@ -264,16 +264,24 @@ nav {
 
 .s2-subcontainer {
     display: flex;
+    gap: 22.8%;
 }
 
-.s2-img-container {
-    display: flex;
+.s2-subcontainer img {
+    width: 235px;
+    height: 229px;
 }
 
 .s2-text-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-between;
+}
+
+h2.titles {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .s2-paragraph {

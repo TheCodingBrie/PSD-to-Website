@@ -9,18 +9,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="flexbox">
-
+    <header>
         <nav>
-            <div class="toplogo">
-                <img src="./design-assets/png/logo.png" alt="Awesome Creative Logo">
-                
+            <div class="logo-container">
+                <img src="./design-assets/png/logo.png" alt="Logo Tajam">
+                <span class="tajam">tajam</span>
             </div>
-
-            <div>
-                <p class="tajam">tajam</p>
-            </div>
-
             <div class="menu">
                 <a href=""> Home </a>
                 <a href=""> About </a>
@@ -28,132 +22,128 @@
                 <a href=""> Teams </a>
                 <a href=""> Works </a>
                 <a href=""> People Say </a>
-                <a href=""> Contact </a>
+                <a id="Contact" href=""> Contact </a>
             </div>
-             
         </nav>
-
-        <section class="s1introduction">
-            <h1>We Are Awesome Creative Agency</h1>
-            <hr class="s1divider">
-            <p class ="s1introductiontext">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum sit amet.</p>
-            <a class="bluebuttons" href=""><p> Learn More</p> </a>
+        <section class="s1-introduction">
+            <h1 id="s1-title">We Are Awesome Creative Agency</h1>
+            <hr class="s1-divider">
+            <p class ="s1-introduction-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum sit amet.</p>
+            <a class="bluebuttons" href="">Learn More</a>
         </section>
-
     </header>
-
     <main>
-        <section class="section2">
-            <div class="w-50">
-                <img class="s2img" src="./design-assets/png/logo-big.png" alt="Logo">
-            </div>
-            <div class="s2story w-50">
-                <h2 class="s2title">OUR STORY</h2>
-                <p class="s2paragraph">This is Photosho´s version of Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id cumque facilis vero accusantium non sed impedit distinctio corporis facere dignissimos, enim, ducimus, similique odit reiciendis.
+        <section class="s2-our-story">
+            <div class="s2-container">
+                <div class="s2-subcontainer">
+                    <div class="s2-img-container">
+                        <img src="./design-assets/png/logo-big.png" alt="Logo">
+                    </div>
+                    <div class="s2-text-container">
+                        <h2 class="titles">OUR STORY</h2>
+                        <p class="s2-paragraph">This is Photosho´s version of Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id cumque facilis vero accusantium non sed impedit distinctio corporis facere dignissimos, enim, ducimus, similique odit reiciendis.</p>
 
-                    <br /> <br /> Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus architecto id, magnam quibusdam, vel quia alias optio nesciunt quaerat at distinctio! Ducimus, rem. Explicabo necessitatibus iusto qui fugiat sapiente nihil!
-                </p>
-                <div class="s2button">LEARN MORE</div>
+                        <p class="s2-paragraph">Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus architecto id, magnam quibusdam, vel quia alias optio nesciunt quaerat at distinctio! Ducimus, rem. Explicabo necessitatibus iusto qui fugiat sapiente nihil!</p>
+                    </div>
+                </div>
+                <a href="#" class="bluebuttons">LEARN MORE</a>
             </div>
         </section>
-
-        <section>
-            <img src="" alt="Video">
-            <h3></h3>
-        </section>
-
-        <section class="section4">
-
-            <div class="s4head">
-                <h2 class="s4title">EXPERTISE</h2>
-                <h3 class="s4paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, commodi?</h3>
-                <div class="s4line"></div>
+        <section class="s3-video">
+            <div class="s3-container">
+                <img src="design-assets/png/play.png" alt="Video">
+                <h3 id="s3-title">WATCH OUR STORY</h3>
             </div>
-
-            <div class="s4body">
-                <div class="s4card1 s4card0">
-                <div class="w90">
-                    <img src="./design-assets/png/screen.png" alt="Creen">
-                    <h4 class="s4cardtitle">DESIGN & DEVELOPMENT</h4>
-                    <p class="s4paragraph"> This is Photoshop´s version of Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, consequuntur.</p>
-                  </div>
+        </section>
+        <section class="s4-expertise">
+            <div class="s4-container">
+                <div class="s4-head">
+                    <h2 class="titles">EXPERTISE</h2>
+                    <p class="s4-subtitle">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+                    <div class="s4-line"></div>
                 </div>
-                <div class="s4card2 s4card0">
-                    <img src="./design-assets/png/pen.png" alt="Pen">
-                    <h4 class="s4cardtitle">BRANDING IDENTITY</h4>
-                    <p class="s4paragraph">This is Photoshop´s version of Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, consequuntur.</p>
-                </div>
-                <div class="s4card3 s4card0">
-                    <img src="./design-assets/png/mobile.png" alt="Mobile">
-                    <h4 class="s4cardtitle">MOBILE APP</h4>
-                    <p class="s4paragraph">This is Photoshop´s version of Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, consequuntur.</p>
-                </div>
-                <div class="s4card4 s4card0">
-                    <img src="./design-assets/png/graph.png" alt="Graph">
-                    <h4 class="s4cardtitle">SEARCH ENGINE OPTIMIZATION</h4>
-                    <p class="s4paragraph">This is Photoshop´s version of Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, consequuntur.</p>
-                </div>
-                <div class="s4card5 s4card0">
-                    <img src="./design-assets/png/gameboy.png" alt="Gameboy">
-                    <h4 class="s4cardtitle">GAME DEVELOPMENT</h4>
-                    <p class="s4paragraph">This is Photoshop´s version of Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, consequuntur.</p>
-                </div>
-                <div class="s4card6 s4card0">
-                    <img src="./design-assets/png/heart.png" alt="Heart">
-                    <h4 class="s4cardtitle">MADE WITH LOVE</h4>
-                    <p class="s4paragraph">This is Photoshop´s version of Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, consequuntur.</p>
+                <div class="s4-body">
+                    <div class="s4-card-1 s4-cards">
+                    <div>
+                        <img src="./design-assets/png/screen.png" alt="Creen">
+                        <h4 class="s4-card-title">DESIGN & DEVELOPMENT</h4>
+                        <p>This is Photoshop´s version of Lorem ipsum. Proin gravida nibh vel velit auctor aliquet Aenean</p>
+                    </div>
+                    </div>
+                    <div class="s4-card-2 s4-cards">
+                        <img src="./design-assets/png/pen.png" alt="Pen">
+                        <h4 class="s4-card-title">BRANDING IDENTITY</h4>
+                        <p>This is Photoshop´s version of Lorem ipsum. Proin gravida nibh vel velit auctor aliquet Aenean</p>
+                    </div>
+                    <div class="s4-card-3 s4-cards">
+                        <img src="./design-assets/png/mobile.png" alt="Mobile">
+                        <h4 class="s4-card-title">MOBILE APP</h4>
+                        <p>This is Photoshop´s version of Lorem ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                    </div>
+                    <div class="s4-card-4 s4-cards">
+                        <img src="./design-assets/png/graph.png" alt="Graph">
+                        <h4 class="s4-card-title">SEARCH ENGINE OPTIMIZATION</h4>
+                        <p>This is Photoshop´s version of Lorem ipsum. Proin gravida nibh vel velit auctor aliquet Aenean</p>
+                    </div>
+                    <div class="s4-card-5 s4-cards">
+                        <img src="./design-assets/png/gameboy.png" alt="Gameboy">
+                        <h4 class="s4-card-title">GAME DEVELOPMENT</h4>
+                        <p>This is Photoshop´s version of Lorem ipsum. Proin gravida nibh vel velit auctor aliquet Aenean</p>
+                    </div>
+                    <div class="s4-card-6 s4-cards">
+                        <img src="./design-assets/png/heart.png" alt="Heart">
+                        <h4 class="s4-card-title">MADE WITH LOVE</h4>
+                        <p>This is Photoshop´s version of Lorem ipsum. Proin gravida nibh vel velit auctor aliquet Aenean</p>
+                    </div>
                 </div>
             </div>
-
         </section>
-
-        <section class="s3team">
-            <div class="s3subteam">
-                <div class="s3d1intro" >
-                    <h2 class="s3whiteheadline">MEET OUR AMAZING TEAM</h2> <!--class maybe not required-->
+        <section class="s5-team">
+            <div class="s5-container">
+                <div class="s5-intro" >
+                    <h2 id="s5-title" class="titles">MEET OUR AMAZING TEAM</h2>
                     <p>Lorem ipsum dolor sit amet proin gracide nibh vel velit</p>
-                            
                 </div>
-                <hr class="s3greyline"> 
-                <div class="s3d2teampictures">
-                    <div class="s3d3teampicture">
-                        <img src="design-assets/png/team-pictures.png" alt="">
-                        <p>Semf Ucuk</p>
-                        <p>CEO & Founder</p>
+                <hr class="s5-line"> 
+                <div class="s5-team-pictures">
+                    <div class="s5-team-picture">
+                        <img src="design-assets/png/team-pictures.png" alt="Semf Ucuk">
                     </div>
-                    <div class="s3d3teampicture">
-                        <img src="design-assets/png/team-pictures.png" alt="">
-                        <p>Dik Aladin</p>
-                        <p>Engineering</p>
+                    <div class="s5-team-picture">
+                        <img src="design-assets/png/team-pictures.png" alt="Dik Aladin">
                     </div>
-                    <div class="s3d3teampicture">
-                        <img src="design-assets/png/team-pictures.png" alt="">
-                        <p>Jeng Kol</p>
-                        <p>Designer</p>
+                    <div class="s5-team-picture">
+                        <img src="design-assets/png/team-pictures.png" alt="Jeng Kol">
                     </div>
-                    <div class="s3d3teampicture">
-                        <img src="design-assets/png/team-pictures.png" alt="">
-                        <p>Pet Romak</p>
-                        <p>Marketing</p>
-                    </div>                
+                    <div class="s5-team-picture">
+                        <img src="design-assets/png/team-pictures.png" alt="Pet Romak">
+                    </div>
                 </div>
-            <div class="s3d1intro">
-                <p>Become part of our dream team, let's join us!</p>
+                <div class="s5-team-members">
+                    <div class="s5-team-member">
+                        <p class="s5-team-name">Semf Ucuk</p>
+                        <p class="s5-team-role">CEO & Founder</p>  
+                    </div>  
+                    <div class="s5-team-member">
+                        <p class="s5-team-name">Dik Aladin</p>
+                        <p class="s5-team-role">Engineering</p>   
+                    </div>  
+                    <div class="s5-team-member">
+                        <p class="s5-team-name">Jeng Kol</p>
+                        <p class="s5-team-role">Designer</p>   
+                    </div>  
+                    <div class="s5-team-member">
+                        <p class="s5-team-name">Pet Romak</p>
+                        <p class="s5-team-role">Marketing</p>   
+                    </div>  
+                </div>  
+                <div class="s5-intro">
+                    <p>Become part of our dream team, let's join us !</p>
+                </div>
+                <div id="s5-button">                
+                    <a class="bluebuttons" href="">We are hiring</a>
+                </div>
             </div>
-            <div>                
-                <a class="bluebuttons" href=""><p>We are hiring</p> </a>
-            </div>
-        </div>
-        </section>
-        <section>
-            <div></div>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div></div>
         </section>
         <section class="s6-container">
             <div class="s6-news">
@@ -163,7 +153,7 @@
                     <input class="s6-input" type="email" name="Email" placeholder="Email">
                     <input class="s6-input" type="text" name="Subject" placeholder="Subject">
                     <textarea class="s6-input" name="textarea" cols="30" rows="12" placeholder="Your message"></textarea>
-                    <button class="bluebuttons">Submit</button>
+                    <button id="s6-button" class="bluebuttons">Submit</button>
                 </form>
             </div>
             <div class="s6-spacer"></div>
@@ -211,15 +201,15 @@
     <footer>
         <div class="s7-top">
             <div class="s7-sub-top">
-                <div class="s7-logo-container">
+                <div class="logo-container">
                     <img src="design-assets/png/logo.png" alt="Logo Tajam">
                     <span class="tajam">tajam</span>
                 </div>
-                <p class="s7-logo-text s7-add-margin">lorem quis bidendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
+                <p class="s7-logo-text s7-add-margin s7-add-padding">lorem quis bidendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
             </div>
             <div class="s7-sub-top">
                 <h4>OUR STUDIO</h4>
-                <a class="s7-reference-link s7-add-margin" href="https://maps.google.com/?q=indonesia">
+                <a class="s7-reference-link s7-add-margin s7-add-padding" href="https://maps.google.com/?q=indonesia">
                     <img class="s7-mini-icon" src="design-assets/png/big104.png" alt="Map icon">
                     <span class="s7-span">Ruko cucruk, Jl. Radio luar dalem jos No. 12 - 13, Kalideres - Jakarta Baret 11480 - Indonesia</span>
                 </a>

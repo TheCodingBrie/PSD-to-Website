@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: roboto, sans-serif;
     border: solid red 1px;
+    scroll-behavior: smooth; /*Makes smooth scrolling instead of jumping for menu and buttons*/
 }
 
 body,
@@ -79,7 +80,9 @@ header {
     background-image: url("design-assets/bgk-header.png");
     background-size: cover;
     background-repeat: no-repeat; 
-    width: 100%;  
+    width: 100%;
+    /*position: sticky;
+    top: -555px;*/  
 }
 
 nav { 
@@ -88,6 +91,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    /*position: sticky;
+    top: 0;*/
 }
 
 .menu {

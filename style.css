@@ -5,7 +5,7 @@
 *  {
     box-sizing: border-box;
     font-family: roboto, sans-serif;
-    border: solid red 1px;
+    border: solid black 1px;
     scroll-behavior: smooth; /*Makes smooth scrolling instead of jumping for menu and buttons*/
 }
 
@@ -264,7 +264,6 @@ nav {
 
 .s2-subcontainer {
     display: flex;
-    justify-content: space-between;
 }
 
 .s2-img-container {
@@ -298,6 +297,7 @@ nav {
 }
 
 .s4-head {  
+    margin-top: 50px;
     text-align: center;
 }
 

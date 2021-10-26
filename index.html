@@ -10,21 +10,23 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo-container">
-                <a href="#top"><img src="./design-assets/png/logo.png" alt="Logo Tajam"></a>
-                <span class="tajam">tajam</span>
-            </div>
-            <div class="menu">
-                <a href="#top"> Home </a>
-                <a href="#our-story"> About </a>
-                <a href="#expertise"> Expertise </a>
-                <a href="#teams"> Teams </a>
-                <a href="#contact"> Works </a>
-                <a href="#contact"> People Say </a>
-                <a href="#contact"> Contact </a> <!--There used to be and i="contact" in there. Dunno why-->
-            </div>
-        </nav>
+        <span class="stickymenu">
+            <nav>
+                <div class="logo-container">
+                    <a href="#top"><img src="./design-assets/png/logo.png" alt="Logo Tajam"></a>
+                    <span class="tajam">tajam</span>
+                </div>
+                <div class="menu">
+                    <a href="#top"> Home </a>
+                    <a href="#our-story"> About </a>
+                    <a href="#expertise"> Expertise </a>
+                    <a href="#teams"> Teams </a>
+                    <a href="#contact"> Works </a>
+                    <a href="#contact"> People Say </a>
+                    <a href="#contact"> Contact </a> <!--There used to be and id="contact" in there. Dunno why-->
+                </div>
+            </nav>
+        </span>
         <section class="s1-introduction">
             <h1 id="s1-title">We Are Awesome Creative Agency</h1>
             <hr class="s1-divider">
@@ -96,7 +98,8 @@
                 </div>
             </div>
         </section>
-        <section class="s5-team" id="teams">
+        <div id="teams"></div> <!--for the sticky menu-->
+        <section class="s5-team" >
             <div class="s5-container">
                 <div class="s5-intro" >
                     <h2 id="s5-title" class="titles">MEET OUR AMAZING TEAM</h2>
@@ -143,7 +146,7 @@
                 </div>
             </div>
         </section>
-        <section class="s6-container">
+        <section class="s6-container" id="contact">
             <div class="s6-news">
                 <h2 class="titles">GIVE US A GOOD NEWS</h2>
                 <form class="s6-form" action="/usermail.html" method="POST" >
@@ -242,7 +245,7 @@
                 </a>
             </div>
         </div>
-        <div class="s7-bottom" id="contact">
+        <div class="s7-bottom" >
             <div class="s7-bottom-link-container">
                 <a class="s7-bottom-links" href="#">HELP</a>
                 <a class="s7-bottom-links" href="#">TERMS & CONDITION</a>
